@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aguil\\Documents\\GITHUB\\Sistema-Ventas-DS\\Sistema_de_Ventas\\CapaPresentacion\\CapaPresentacion.csproj": {}
+    "C:\\Users\\aguil\\Documents\\GITHUB\\Sistema-Ventas-DS\\CapaPresentacion\\CapaPresentacion.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aguil\\Documents\\GITHUB\\Sistema-Ventas-DS\\Sistema_de_Ventas\\CapaPresentacion\\CapaPresentacion.csproj": {
+    "C:\\Users\\aguil\\Documents\\GITHUB\\Sistema-Ventas-DS\\CapaPresentacion\\CapaPresentacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aguil\\Documents\\GITHUB\\Sistema-Ventas-DS\\Sistema_de_Ventas\\CapaPresentacion\\CapaPresentacion.csproj",
+        "projectUniqueName": "C:\\Users\\aguil\\Documents\\GITHUB\\Sistema-Ventas-DS\\CapaPresentacion\\CapaPresentacion.csproj",
         "projectName": "CapaPresentacion",
-        "projectPath": "C:\\Users\\aguil\\Documents\\GITHUB\\Sistema-Ventas-DS\\Sistema_de_Ventas\\CapaPresentacion\\CapaPresentacion.csproj",
+        "projectPath": "C:\\Users\\aguil\\Documents\\GITHUB\\Sistema-Ventas-DS\\CapaPresentacion\\CapaPresentacion.csproj",
         "packagesPath": "C:\\Users\\aguil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aguil\\Documents\\GITHUB\\Sistema-Ventas-DS\\Sistema_de_Ventas\\CapaPresentacion\\obj\\",
+        "outputPath": "C:\\Users\\aguil\\Documents\\GITHUB\\Sistema-Ventas-DS\\CapaPresentacion\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\aguil\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aguil\\Documents\\GITHUB\\Sistema-Ventas-DS\\Sistema_de_Ventas\\CapaNegocio\\CapaNegocio.csproj",
+      "projectUniqueName": "C:\\Users\\aguil\\Documents\\GITHUB\\Sistema-Ventas-DS\\CapaNegocio\\CapaNegocio.csproj",
       "projectName": "CapaNegocio",
-      "projectPath": "C:\\Users\\aguil\\Documents\\GITHUB\\Sistema-Ventas-DS\\Sistema_de_Ventas\\CapaNegocio\\CapaNegocio.csproj",
+      "projectPath": "C:\\Users\\aguil\\Documents\\GITHUB\\Sistema-Ventas-DS\\CapaNegocio\\CapaNegocio.csproj",
       "packagesPath": "C:\\Users\\aguil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aguil\\Documents\\GITHUB\\Sistema-Ventas-DS\\Sistema_de_Ventas\\CapaNegocio\\obj\\",
+      "outputPath": "C:\\Users\\aguil\\Documents\\GITHUB\\Sistema-Ventas-DS\\CapaNegocio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\aguil\\AppData\\Roaming\\NuGet\\NuGet.Config",

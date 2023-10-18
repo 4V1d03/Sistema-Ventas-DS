@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eB16YisXiACRFbXPmncjQ3UV1X6tXKNLxd3614hWz44GANpXTtOpONVCYiPXd7DobzA+Vt1YAql8c2IHJJOsGg==",
+  "dgSpecHash": "VNOcfSOxm69lCCJRfYrUu1WAPR5Xpn1s6R6VPnnVZkRMhuCI4oPiKYfvXcj+Ipv7KZGF+QGLP7tuBpuYjDi0ig==",
   "success": true,
-  "projectFilePath": "C:\\Users\\aguil\\Documents\\GITHUB\\Sistema-Ventas-DS\\Sistema_de_Ventas\\CapaDatos\\CapaDatos.csproj",
+  "projectFilePath": "C:\\Users\\aguil\\Documents\\GITHUB\\Sistema-Ventas-DS\\CapaDatos\\CapaDatos.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

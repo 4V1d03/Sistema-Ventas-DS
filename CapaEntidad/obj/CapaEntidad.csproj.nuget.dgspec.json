@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aguil\\Documents\\GITHUB\\Sistema-Ventas-DS\\Sistema_de_Ventas\\CapaEntidad\\CapaEntidad.csproj": {}
+    "C:\\Users\\aguil\\Documents\\GITHUB\\Sistema-Ventas-DS\\CapaEntidad\\CapaEntidad.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aguil\\Documents\\GITHUB\\Sistema-Ventas-DS\\Sistema_de_Ventas\\CapaEntidad\\CapaEntidad.csproj": {
+    "C:\\Users\\aguil\\Documents\\GITHUB\\Sistema-Ventas-DS\\CapaEntidad\\CapaEntidad.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aguil\\Documents\\GITHUB\\Sistema-Ventas-DS\\Sistema_de_Ventas\\CapaEntidad\\CapaEntidad.csproj",
+        "projectUniqueName": "C:\\Users\\aguil\\Documents\\GITHUB\\Sistema-Ventas-DS\\CapaEntidad\\CapaEntidad.csproj",
         "projectName": "CapaEntidad",
-        "projectPath": "C:\\Users\\aguil\\Documents\\GITHUB\\Sistema-Ventas-DS\\Sistema_de_Ventas\\CapaEntidad\\CapaEntidad.csproj",
+        "projectPath": "C:\\Users\\aguil\\Documents\\GITHUB\\Sistema-Ventas-DS\\CapaEntidad\\CapaEntidad.csproj",
         "packagesPath": "C:\\Users\\aguil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aguil\\Documents\\GITHUB\\Sistema-Ventas-DS\\Sistema_de_Ventas\\CapaEntidad\\obj\\",
+        "outputPath": "C:\\Users\\aguil\\Documents\\GITHUB\\Sistema-Ventas-DS\\CapaEntidad\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\aguil\\AppData\\Roaming\\NuGet\\NuGet.Config",
