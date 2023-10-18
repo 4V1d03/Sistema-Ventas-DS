@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "W+f4tXYqnJW35YSBH5fV+ClFXEClOKRw/LVYTeZNt5eQlOXA3Gif89xZuytn9wpz7XkEwyuhxyoYO2sKRLbbGw==",
+  "dgSpecHash": "YTJo5qDv4FRemiNRElZBHq92u8XyOnWWzh5GlqNPbdLD14zH+nCPjQGy0VXFGEQeiBOnoKCOlMTuUCE21HCk5w==",
   "success": true,
   "projectFilePath": "C:\\Users\\aguil\\Documents\\GITHUB\\Sistema-Ventas-DS\\CapaPresentacion\\CapaPresentacion.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\aguil\\.nuget\\packages\\fontawesome.sharp\\5.15.3\\fontawesome.sharp.5.15.3.nupkg.sha512"
+  ],
   "logs": []
 }
