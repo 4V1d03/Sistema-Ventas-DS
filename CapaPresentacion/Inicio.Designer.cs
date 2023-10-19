@@ -67,7 +67,7 @@
             // 
             // menuMantenedor
             // 
-            menuMantenedor.IconChar = FontAwesome.Sharp.IconChar.Folder;
+            menuMantenedor.IconChar = FontAwesome.Sharp.IconChar.FolderBlank;
             menuMantenedor.IconColor = Color.Black;
             menuMantenedor.IconFont = FontAwesome.Sharp.IconFont.Auto;
             menuMantenedor.IconSize = 50;
@@ -100,7 +100,7 @@
             // 
             // menuClientes
             // 
-            menuClientes.IconChar = FontAwesome.Sharp.IconChar.PeopleArrows;
+            menuClientes.IconChar = FontAwesome.Sharp.IconChar.PeopleArrowsLeftRight;
             menuClientes.IconColor = Color.Black;
             menuClientes.IconFont = FontAwesome.Sharp.IconFont.Auto;
             menuClientes.IconSize = 50;
@@ -122,7 +122,7 @@
             // 
             // menuReportes
             // 
-            menuReportes.IconChar = FontAwesome.Sharp.IconChar.ChartBar;
+            menuReportes.IconChar = FontAwesome.Sharp.IconChar.BarChart;
             menuReportes.IconColor = Color.Black;
             menuReportes.IconFont = FontAwesome.Sharp.IconFont.Auto;
             menuReportes.IconSize = 50;
@@ -184,6 +184,7 @@
             Controls.Add(menutitulo);
             MainMenuStrip = menu;
             Name = "Inicio";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Inicio";
             menu.ResumeLayout(false);
             menu.PerformLayout();
