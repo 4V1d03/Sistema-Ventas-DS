@@ -31,15 +31,21 @@
             menu = new MenuStrip();
             menuUsuarios = new FontAwesome.Sharp.IconMenuItem();
             menuMantenedor = new FontAwesome.Sharp.IconMenuItem();
+            submenuCategorias = new FontAwesome.Sharp.IconMenuItem();
+            submenuProductos = new FontAwesome.Sharp.IconMenuItem();
             menuVentas = new FontAwesome.Sharp.IconMenuItem();
+            submenuRegistrarVentas = new FontAwesome.Sharp.IconMenuItem();
+            submenuVerDetalleVentas = new FontAwesome.Sharp.IconMenuItem();
             menuCompras = new FontAwesome.Sharp.IconMenuItem();
+            submenuRegistrarCompras = new FontAwesome.Sharp.IconMenuItem();
+            submenuVerDetalleCompras = new FontAwesome.Sharp.IconMenuItem();
             menuClientes = new FontAwesome.Sharp.IconMenuItem();
             menuProveedores = new FontAwesome.Sharp.IconMenuItem();
             menuReportes = new FontAwesome.Sharp.IconMenuItem();
             menuAcerca = new FontAwesome.Sharp.IconMenuItem();
             menutitulo = new MenuStrip();
             label1 = new Label();
-            panel1 = new Panel();
+            contenedor = new Panel();
             menu.SuspendLayout();
             SuspendLayout();
             // 
@@ -50,7 +56,7 @@
             menu.Items.AddRange(new ToolStripItem[] { menuUsuarios, menuMantenedor, menuVentas, menuCompras, menuClientes, menuProveedores, menuReportes, menuAcerca });
             menu.Location = new Point(0, 76);
             menu.Name = "menu";
-            menu.Size = new Size(1444, 58);
+            menu.Size = new Size(1420, 58);
             menu.TabIndex = 0;
             menu.Text = "menuStrip1";
             // 
@@ -64,9 +70,11 @@
             menuUsuarios.Name = "menuUsuarios";
             menuUsuarios.Size = new Size(129, 54);
             menuUsuarios.Text = "Usuarios";
+            menuUsuarios.Click += menuUsuarios_Click;
             // 
             // menuMantenedor
             // 
+            menuMantenedor.DropDownItems.AddRange(new ToolStripItem[] { submenuCategorias, submenuProductos });
             menuMantenedor.IconChar = FontAwesome.Sharp.IconChar.FolderBlank;
             menuMantenedor.IconColor = Color.Black;
             menuMantenedor.IconFont = FontAwesome.Sharp.IconFont.Auto;
@@ -76,8 +84,29 @@
             menuMantenedor.Size = new Size(146, 54);
             menuMantenedor.Text = "Mantendor";
             // 
+            // submenuCategorias
+            // 
+            submenuCategorias.IconChar = FontAwesome.Sharp.IconChar.None;
+            submenuCategorias.IconColor = Color.Black;
+            submenuCategorias.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            submenuCategorias.Name = "submenuCategorias";
+            submenuCategorias.Size = new Size(224, 26);
+            submenuCategorias.Text = "Categorias";
+            submenuCategorias.Click += submenuCategorias_Click;
+            // 
+            // submenuProductos
+            // 
+            submenuProductos.IconChar = FontAwesome.Sharp.IconChar.None;
+            submenuProductos.IconColor = Color.Black;
+            submenuProductos.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            submenuProductos.Name = "submenuProductos";
+            submenuProductos.Size = new Size(224, 26);
+            submenuProductos.Text = "Productos";
+            submenuProductos.Click += submenuProductos_Click;
+            // 
             // menuVentas
             // 
+            menuVentas.DropDownItems.AddRange(new ToolStripItem[] { submenuRegistrarVentas, submenuVerDetalleVentas });
             menuVentas.IconChar = FontAwesome.Sharp.IconChar.Shopify;
             menuVentas.IconColor = Color.Black;
             menuVentas.IconFont = FontAwesome.Sharp.IconFont.Auto;
@@ -87,8 +116,29 @@
             menuVentas.Size = new Size(116, 54);
             menuVentas.Text = "Ventas";
             // 
+            // submenuRegistrarVentas
+            // 
+            submenuRegistrarVentas.IconChar = FontAwesome.Sharp.IconChar.None;
+            submenuRegistrarVentas.IconColor = Color.Black;
+            submenuRegistrarVentas.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            submenuRegistrarVentas.Name = "submenuRegistrarVentas";
+            submenuRegistrarVentas.Size = new Size(224, 26);
+            submenuRegistrarVentas.Text = "Registrar";
+            submenuRegistrarVentas.Click += submenuRegistrarVentas_Click;
+            // 
+            // submenuVerDetalleVentas
+            // 
+            submenuVerDetalleVentas.IconChar = FontAwesome.Sharp.IconChar.None;
+            submenuVerDetalleVentas.IconColor = Color.Black;
+            submenuVerDetalleVentas.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            submenuVerDetalleVentas.Name = "submenuVerDetalleVentas";
+            submenuVerDetalleVentas.Size = new Size(224, 26);
+            submenuVerDetalleVentas.Text = "Ver Detalle";
+            submenuVerDetalleVentas.Click += submenuVerDetalleVentas_Click;
+            // 
             // menuCompras
             // 
+            menuCompras.DropDownItems.AddRange(new ToolStripItem[] { submenuRegistrarCompras, submenuVerDetalleCompras });
             menuCompras.IconChar = FontAwesome.Sharp.IconChar.ShoppingCart;
             menuCompras.IconColor = Color.Black;
             menuCompras.IconFont = FontAwesome.Sharp.IconFont.Auto;
@@ -97,6 +147,26 @@
             menuCompras.Name = "menuCompras";
             menuCompras.Size = new Size(132, 54);
             menuCompras.Text = "Compras";
+            // 
+            // submenuRegistrarCompras
+            // 
+            submenuRegistrarCompras.IconChar = FontAwesome.Sharp.IconChar.None;
+            submenuRegistrarCompras.IconColor = Color.Black;
+            submenuRegistrarCompras.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            submenuRegistrarCompras.Name = "submenuRegistrarCompras";
+            submenuRegistrarCompras.Size = new Size(224, 26);
+            submenuRegistrarCompras.Text = "Registrar";
+            submenuRegistrarCompras.Click += submenuRegistrarCompras_Click;
+            // 
+            // submenuVerDetalleCompras
+            // 
+            submenuVerDetalleCompras.IconChar = FontAwesome.Sharp.IconChar.None;
+            submenuVerDetalleCompras.IconColor = Color.Black;
+            submenuVerDetalleCompras.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            submenuVerDetalleCompras.Name = "submenuVerDetalleCompras";
+            submenuVerDetalleCompras.Size = new Size(224, 26);
+            submenuVerDetalleCompras.Text = "Ver Detalle";
+            submenuVerDetalleCompras.Click += submenuVerDetalleCompras_Click;
             // 
             // menuClientes
             // 
@@ -108,6 +178,7 @@
             menuClientes.Name = "menuClientes";
             menuClientes.Size = new Size(125, 54);
             menuClientes.Text = "Clientes";
+            menuClientes.Click += menuClientes_Click;
             // 
             // menuProveedores
             // 
@@ -119,6 +190,7 @@
             menuProveedores.Name = "menuProveedores";
             menuProveedores.Size = new Size(155, 54);
             menuProveedores.Text = "Proveedores";
+            menuProveedores.Click += menuProveedores_Click;
             // 
             // menuReportes
             // 
@@ -130,6 +202,7 @@
             menuReportes.Name = "menuReportes";
             menuReportes.Size = new Size(132, 54);
             menuReportes.Text = "Reportes";
+            menuReportes.Click += menuReportes_Click;
             // 
             // menuAcerca
             // 
@@ -150,7 +223,7 @@
             menutitulo.Location = new Point(0, 0);
             menutitulo.Name = "menutitulo";
             menutitulo.RightToLeft = RightToLeft.Yes;
-            menutitulo.Size = new Size(1444, 76);
+            menutitulo.Size = new Size(1420, 76);
             menutitulo.TabIndex = 1;
             menutitulo.Text = "menuStrip2";
             // 
@@ -165,20 +238,20 @@
             label1.TabIndex = 2;
             label1.Text = "Sistema Ventas";
             // 
-            // panel1
+            // contenedor
             // 
-            panel1.Dock = DockStyle.Fill;
-            panel1.Location = new Point(0, 134);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(1444, 548);
-            panel1.TabIndex = 3;
+            contenedor.Dock = DockStyle.Fill;
+            contenedor.Location = new Point(0, 134);
+            contenedor.Name = "contenedor";
+            contenedor.Size = new Size(1420, 654);
+            contenedor.TabIndex = 3;
             // 
             // Inicio
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1444, 682);
-            Controls.Add(panel1);
+            ClientSize = new Size(1420, 788);
+            Controls.Add(contenedor);
             Controls.Add(label1);
             Controls.Add(menu);
             Controls.Add(menutitulo);
@@ -186,6 +259,7 @@
             Name = "Inicio";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Inicio";
+            Load += Inicio_Load;
             menu.ResumeLayout(false);
             menu.PerformLayout();
             ResumeLayout(false);
@@ -205,6 +279,12 @@
         private FontAwesome.Sharp.IconMenuItem menuProveedores;
         private FontAwesome.Sharp.IconMenuItem menuClientes;
         private FontAwesome.Sharp.IconMenuItem menuReportes;
-        private Panel panel1;
+        private Panel contenedor;
+        private FontAwesome.Sharp.IconMenuItem submenuCategorias;
+        private FontAwesome.Sharp.IconMenuItem submenuProductos;
+        private FontAwesome.Sharp.IconMenuItem submenuRegistrarVentas;
+        private FontAwesome.Sharp.IconMenuItem submenuVerDetalleVentas;
+        private FontAwesome.Sharp.IconMenuItem submenuRegistrarCompras;
+        private FontAwesome.Sharp.IconMenuItem submenuVerDetalleCompras;
     }
 }

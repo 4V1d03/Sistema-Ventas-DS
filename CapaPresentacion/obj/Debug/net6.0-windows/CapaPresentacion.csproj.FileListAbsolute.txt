@@ -19,3 +19,13 @@ C:\Users\aguil\Documents\GITHUB\Sistema-Ventas-DS\CapaPresentacion\obj\Debug\net
 C:\Users\aguil\Documents\GITHUB\Sistema-Ventas-DS\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.pdb
 C:\Users\aguil\Documents\GITHUB\Sistema-Ventas-DS\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.genruntimeconfig.cache
 C:\Users\aguil\Documents\GITHUB\Sistema-Ventas-DS\CapaPresentacion\obj\Debug\net6.0-windows\ref\CapaPresentacion.dll
+C:\Users\aguil\Documents\GITHUB\Sistema-Ventas-DS\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.Usuarios.resources
+C:\Users\aguil\Documents\GITHUB\Sistema-Ventas-DS\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.Categorias.resources
+C:\Users\aguil\Documents\GITHUB\Sistema-Ventas-DS\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.Clientes.resources
+C:\Users\aguil\Documents\GITHUB\Sistema-Ventas-DS\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.Compras.resources
+C:\Users\aguil\Documents\GITHUB\Sistema-Ventas-DS\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.Detalle_Compra.resources
+C:\Users\aguil\Documents\GITHUB\Sistema-Ventas-DS\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.Detalle_Venta.resources
+C:\Users\aguil\Documents\GITHUB\Sistema-Ventas-DS\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.Productos.resources
+C:\Users\aguil\Documents\GITHUB\Sistema-Ventas-DS\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.Proveedores.resources
+C:\Users\aguil\Documents\GITHUB\Sistema-Ventas-DS\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.Reportes.resources
+C:\Users\aguil\Documents\GITHUB\Sistema-Ventas-DS\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.Ventas.resources
